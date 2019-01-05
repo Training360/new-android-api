@@ -1,33 +1,43 @@
 [
     {
         "id": 0,
-        "avatar": "",
+        "avatar": "clooney_avatar.png",
         "name": "György",
         "rating": 4,
         "job": "Informatikus",
         "age": 27,
         "introduction": "Arra gondoltam, hogy valami jó olaszos kaja ki tudja hozni az emberek valódi énjét.\n\nSzóval... bedobhatnánk egy pizzát valamikor, szerintem az egészen király lenne.\n\nCiao!",
-        "images": []
+        "images": [
+            "clooney2.png",
+            "clooney3.png"
+        ]
     },
     {
         "id": 1,
-        "avatar": "",
+        "avatar": "henry_cavill_avatar.jpg",
         "name": "Henrik",
         "rating": 5,
         "job": "Színész",
         "age": 37,
         "introduction": "Jelenleg itt élek Magyarországon, mivel éppen itt forgatjuk a Witcher-t a Netflixnek.\n\nMagyarul csak egy kicsit beszélek. Szeretem a marhapörköltet és a pálinkát is.\n\nSee you.",
-        "images": []
+        "images": [
+            "henry_cavill_1.jpg",
+            "henry_cavill_2.jpg",
+            "henry_cavill_3.jpg"
+        ]
     },
     {
         "id": 2,
-        "avatar": "",
+        "avatar": "jason_momoa_avatar.jpg",
         "name": "Dzsézön",
         "rating": 5,
         "job": "Uralkodó",
         "age": 33,
         "introduction": "Szeretek úszni, a lovakat is szeretem.\n\nNagy gyengémnek számít a már-már szürke jellegű szőke hajú hölgyeket, akik vékonyak és alacsonyak, ja és persze fiatalok.",
-        "images": []
+        "images": [
+            "jason_momoa_1.jpg",
+            "jason_momoa_2.jpg"
+        ]
     },
     {
         "id": 3,
@@ -36,6 +46,9 @@
         "rating": 3,
         "job": "Mesterlövész",
         "age": 35,
-        "introduction": "Alapvetően mesterlövész vagyok, meg másnapos, de mostanában musicalekben is szereplek.\n\n Wannabe kémikus is vagyok."
+        "introduction": "Alapvetően mesterlövész vagyok, meg másnapos, de mostanában musicalekben is szereplek.\n\n Wannabe kémikus is vagyok.",
+        "images": [
+            "bradley_cooper_1.jpg"
+        ]
     }
 ]

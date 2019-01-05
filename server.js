@@ -35,7 +35,7 @@ app.get('/persons', (req, res) => {
 });
 
 app.get('/persons/:id', (req, res) => {
-  const person = persons.find(item => item.id === req.params.id);
+  const person = persons.find(item => item.id == req.params.id);
   if (person) {
     console.log(person.name);
     timeoutDuration = Math.floor(Math.random() * 5000);
