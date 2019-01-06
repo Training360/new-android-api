@@ -10,7 +10,11 @@
         "images": [
             "clooney2.png",
             "clooney3.png"
-        ]
+        ],
+        "lastLocation": {
+            "latitude": 52.232357,
+            "longitude": 21.152927
+        }
     },
     {
         "id": 1,
@@ -24,7 +28,11 @@
             "henry_cavill_1.jpg",
             "henry_cavill_2.jpg",
             "henry_cavill_3.jpg"
-        ]
+        ],
+        "lastLocation": {
+            "latitude": 52.231621,
+            "longitude": 21.16151
+        }
     },
     {
         "id": 2,
@@ -37,11 +45,15 @@
         "images": [
             "jason_momoa_1.jpg",
             "jason_momoa_2.jpg"
-        ]
+        ],
+        "lastLocation": {
+            "latitude": 52.228782,
+            "longitude": 21.156188
+        }
     },
     {
         "id": 3,
-        "avatar": "",
+        "avatar": "bradley_cooper_avatar.jpg",
         "name": "Bradley",
         "rating": 3,
         "job": "Mesterlövész",
@@ -49,6 +61,10 @@
         "introduction": "Alapvetően mesterlövész vagyok, meg másnapos, de mostanában musicalekben is szereplek.\n\n Wannabe kémikus is vagyok.",
         "images": [
             "bradley_cooper_1.jpg"
-        ]
+        ],
+        "lastLocation": {
+            "latitude": 52.234459,
+            "longitude": 21.157905
+        }
     }
 ]

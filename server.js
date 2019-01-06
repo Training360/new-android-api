@@ -26,7 +26,7 @@ var upload = multer({ storage: storage }).single('image');
 
 app.get('/persons', (req, res) => {
   if (persons.length > 0) {
-    timeoutDuration = Math.floor(Math.random() * 5000);
+    timeoutDuration = 5000;
     setTimeout(() => res.json(persons), timeoutDuration);
   } else {
     console.log(404, 'all');
