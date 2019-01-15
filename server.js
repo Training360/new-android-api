@@ -50,9 +50,9 @@ app.get('/persons/:id', (req, res) => {
 app.post('/persons', function(req, res) {
   const nextIndexObj = { id: persons.length };
   const newPerson = Object.assign(nextIndexObj, req.body);
-  restaurants.push(newPerson);
+  persons.push(newPerson);
   console.log(newPerson);
-  res.json(newPerson);
+  res.json(persons);
 });
 
 // Upload a photo
