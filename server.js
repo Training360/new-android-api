@@ -55,6 +55,19 @@ app.post('/persons', function(req, res) {
   res.json(persons);
 });
 
+app.post('/persons/:id', (req, res) => {
+    var person = persons.find(item => item.id == req.params.id);
+    if (person) {
+        console.log(person.name);
+        timeoutDuration = Math.floor(Math.random() * 5000);
+        const index = persons.indexOf(person);
+        persons[index] = req.body
+        setTimeout(() => res.json(person), timeoutDuration);
+    } else {
+        res.status(404).json({ error: 'Person not found :_(' });
+    }
+});
+
 // Upload a photo
 app.post('/upload', function(req, res) {
   console.log('upload called');

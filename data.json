@@ -70,5 +70,22 @@
             "longitude": 21.157905
         },
         "owner": "noone@gmail.com"
-    }
+    },
+	{
+    "id": 4,
+    "age": 50,
+    "avatar": "JPEG_20190119_015323_8046049484379919187.jpg",
+    "images": [
+      "JPEG_20190119_015323_8046049484379919187.jpg"
+    ],
+    "introduction": "zbzbhzbsxxhshhssh xnxxnnxnnxnzndnznxnxnxnxnxnxxnxnxnxnxnxnxxn",
+    "job": "Vsvsgsh",
+    "lastLocation": {
+      "latitude": 52.22210166666667,
+      "longitude": 21.01197666666667
+    },
+    "name": "Tibor Molnár",
+    "owner": "motibi89@gmail.com",
+    "rating": 5
+  }
 ]
